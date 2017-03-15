@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orderUpdateResponse version="1.0">
+  <purchaseOrder id="1121066">
+    <buyer id="877723">
+      <email>blah@somewhere.com</email>
+      <mailingAddress>
+        <city>Vancouver</city>
+        <code>V8T 1Z1</code>
+        <country>Canada</country>
+        <name>John Doe</name>
+        <phone>604-123-1234</phone>
+        <region/>
+        <street>123 John Avenue</street>
+        <street2/>
+      </mailingAddress>
+    </buyer>
+    <domain id="1">
+      <name>abebooks.com</name>
+    </domain>
+    <orderDate>
+      <date>
+        <day>2</day>
+        <month>8</month>
+        <year>2002</year>
+      </date>
+      <time>
+        <hour>1</hour>
+        <minute>13</minute>
+        <second>38</second>
+      </time>
+    </orderDate>
+    <orderTotals>
+      <gst currency="USD">0.0</gst>
+      <handling currency="USD">0.0</handling>
+      <shipping currency="USD">8.5</shipping>
+      <subtotal currency="USD">25.0</subtotal>
+      <tax currency="USD">0.0</tax>
+      <total currency="USD">33.5</total>
+    </orderTotals>
+    <purchaseMethod>CC</purchaseMethod>
+    <purchaseOrderItemList>
+      <purchaseOrderItem id="2077519">
+        <book id="63511185">
+          <author>Irving, Washington</author>
+          <description>Robert A. Reynolds 8vo, 357p Klikitat Edition.</description>
+          <price currency="USD">25.0</price>
+          <title>Adventures of Captain Bonneville</title>
+          <vendorKey>000073</vendorKey>
+        </book>
+        <orderDate>
+          <date>
+            <day>2</day>
+            <month>8</month>
+            <year>2002</year>
+          </date>
+          <time>
+            <hour>1</hour>
+            <minute>13</minute>
+            <second>38</second>
+          </time>
+        </orderDate>
+        <purchaseOrder id="1121066"/>
+        <sellerTotal currency="USD">0.0</sellerTotal>
+        <status code="05">Ordered</status>
+      </purchaseOrderItem>
+    </purchaseOrderItemList>
+    <reseller id="15">
+      <name>abebooks</name>
+    </reseller>
+    <seller id="6158"/>
+    <shipmentManifest>http://www.abebooks.com/servlet/ShipmentManifest?abepoid=1121066</shipmentManifest>
+    <shipping>
+      <extraItemShippingCost currency="USD">4.25</extraItemShippingCost>
+      <firstItemShippingCost currency="USD">8.5</firstItemShippingCost>
+      <maxDeliveryDays>42</maxDeliveryDays>
+      <minDeliveryDays>28</minDeliveryDays>
+      <company>FEDEX</company>
+      <trackingCode>12343456231341234</trackingCode>
+    </shipping>
+    <specialInstructions>Deliver express</specialInstructions>
+    <status code="05">Ordered</status>
+  </purchaseOrder>
+</orderUpdateResponse>
