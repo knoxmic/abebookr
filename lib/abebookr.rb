@@ -5,9 +5,6 @@ require 'builder'
 require 'httparty'
 require 'nokogiri'
 
-# FIXME Remove me
-require 'pry'
-
 module Abebookr
 
   def self.configure
